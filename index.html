@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>lychee auto fix error relative link</title>
+  <link rel="stylesheet" href="./assets/styles.css">
   <style>
-    a::before {
-      background: url('testing/images/lychee.pn');
+    div:nth-of-type(1)::before {
+      display: block;
+      background-image: url('testing/images/lychee.pn');
     }
   </style>
 </head>
 <body>
   <img src="testing/images/lychee.png" alt="">
-  <a href="">a broken url</a>
+  <div>a link with broken ::before background
+    image</div>
+  <div>another link with broken ::before background
+    image</div>
 </body>
 </html>

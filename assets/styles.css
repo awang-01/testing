@@ -1,0 +1,4 @@
+div:nth-of-type(2)::before {
+  display: block;
+  background-image: url('testing/images/lychee.pn');
+}
